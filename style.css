@@ -161,7 +161,7 @@ section {
 
 .imgsec {
     background-color: black;
-    height: 2200px;
+    height: 2248px;
 
 }
 
@@ -255,9 +255,14 @@ h1 {
     position: absolute;
     right: 24px;
     bottom: 22px;
-    background-color:#220222;
-    
-} 
+    display: block;
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    background: inherit;
+    border-radius: 18px;
+    object-fit: contain;
+}
 
 
 
@@ -293,55 +298,47 @@ h1 {
 
 
 
-.box1{
-     width:85%;
-    height:90px;
-    margin:9px;
-    margin-left:10%;
-    background-color: rgb(61, 61, 69);
+.boxes {
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
-.box2{
-     width:85%;
-    height:90px;
-    margin:9px;
 
-    margin-left:10%;
-    background-color:  rgb(61, 61, 69);
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    background-color:#2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    
+    border: 1px solid rgba(255, 255, 255, 0.08);
 }
-.box3{
-     width:85%;
-    height:90px;
-    margin:9px;
-    margin-left:10%;
-    background-color: rgb(61, 61, 69);
-}
-.box4{
-     width:85%;
-    height:90px;
-    margin:9px;
-    margin-left:10%;
-    background-color:  rgb(61, 61, 69);
-}
-.box5{
-     width:85%;
-    height:90px;
-    margin:9px;
-    margin-left:10%;
-    background-color:  rgb(61, 61, 69);
-}
-.box6{
-    width:85%;
-    height:90px;
-    margin:9px;
-    margin-left:10%;
-    background-color: rgb(61, 61, 69);
 
+.box1 img,
+.box2 img,
+.box3 img,
+.box4 img,
+.box5 img,
+.box6 img {
+    margin-left: auto;
 }
-.letter{
-    color:white;
-    padding:10px;
-    font-size:25px;
+
+.letter {
+    color: white;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
 }
 
 
