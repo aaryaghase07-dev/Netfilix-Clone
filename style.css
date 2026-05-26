@@ -88,6 +88,29 @@ nav button {
     text-align: center;
 
 }
+.language-select{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content:center;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 100px;
+    top:10px;
+
+}
+select{
+    background-color:rgba(23, 23, 23, 0.5);
+    color: white;
+    border: 0px solid white;
+    padding:9px 2px 2px 2px;
+}
+.language-select select option{
+    background-color: black;
+    color:white;
+}
 
 .btn {
 
