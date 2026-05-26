@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Login</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background-image:
+      linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+      url("https://assets.nflxext.com/ffe/siteui/vlv3/9e0b3d5f-4f3f-4fd8-bb59-9d6d2f6f3c7b/web/IN-en-20240513-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+
+      background-size:cover;
+      background-position:center;
+      height:100vh;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+
+    .login-container{
+      background:rgba(0,0,0,0.75);
+      padding:60px 50px;
+      width:380px;
+      border-radius:5px;
+    }
+
+    .login-container h1{
+      color:white;
+      margin-bottom:30px;
+      font-size:32px;
+    }
+
+    .input-box{
+      margin-bottom:16px;
+    }
+
+    .input-box input{
+      width:100%;
+      padding:16px;
+      border:none;
+      outline:none;
+      background:#333;
+      color:white;
+      border-radius:5px;
+      font-size:16px;
+    }
+
+    .input-box input::placeholder{
+      color:#b3b3b3;
+    }
+
+    .signin-btn{
+      width:100%;
+      padding:14px;
+      border:none;
+      background:red;
+      color:white;
+      font-size:16px;
+      font-weight:bold;
+      border-radius:5px;
+      cursor:pointer;
+      margin-top:10px;
+    }
+
+    .signin-btn:hover{
+      background:rgb(193, 17, 25);
+    }
+
+    .extra{
+      margin-top:15px;
+      display:flex;
+      justify-content:space-between;
+      color:#b3b3b3;
+      font-size:14px;
+    }
+
+    .signup{
+      margin-top:50px;
+      color:#737373;
+      font-size:16px;
+    }
+
+    .signup a{
+      color:white;
+      text-decoration:none;
+    }
+
+    .signup a:hover{
+      text-decoration:underline;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="login-container">
+
+    <h1>Sign In</h1>
+
+    <div class="input-box">
+      <input type="email" placeholder="Email or phone number">
+    </div>
+
+    <div class="input-box">
+      <input type="password" placeholder="Password">
+    </div>
+
+    <button class="signin-btn">Sign In</button>
+
+    <div class="extra">
+      <label>
+        <input type="checkbox">
+        Remember me
+      </label>
+
+      <p>Need Help?</p>
+    </div>
+
+    <div class="signup">
+      New to Netflix?
+      <a href="#">Sign up now</a>
+    </div>
+
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
