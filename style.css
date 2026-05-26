@@ -168,7 +168,7 @@ section {
     height: 300px;
     max-width: 1200px;
     width: 90%;
-    margin: 30px 0 0 120px;
+    margin: 30px 0 0 180px;
 }
 
 
@@ -253,6 +253,7 @@ section {
     gap:10px;
     height: 300px;
     width: 90vw;
+     margin: 30px 0 0 60px;
 }
 
 .boxer {
@@ -319,12 +320,13 @@ section {
 
 
 .boxes {
-    width: 90%;
+    width: 100%;
     max-width: 980px;
     margin: auto;
     display: flex;
     flex-direction: column;
     gap: 14px;
+     margin: 30px 0 0 180px;
 }
 
 .box1,
@@ -333,7 +335,7 @@ section {
 .box4,
 .box5,
 .box6 {
-    width: 100%;
+    width: 123%;
     height: 90px;
     margin: 0;
     background-color:#2d2d2d;
