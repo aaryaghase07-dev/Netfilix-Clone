@@ -1,3 +1,5 @@
+
+// sign in button action
 const signinBtn = document.querySelector(".signin-btn");
 
 const emailInput = document.querySelector('input[type="email"]');
@@ -23,3 +25,6 @@ signinBtn.addEventListener("click", () => {
     }
 
 });
+
+
+
