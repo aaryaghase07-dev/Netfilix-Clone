@@ -12,13 +12,13 @@ signinBtn.addEventListener("click", () => {
 
     const password = passwordInput.value;
 
-    if(email === "" || password === ""){
+    if (email === "" || password === "") {
 
         alert("Please fill all fields");
 
     }
 
-    else{
+    else {
 
         alert("Login Successful");
 
@@ -44,9 +44,9 @@ const closeBtn = document.getElementById("close-btn");
 
 
 
-cards.forEach((card, index)=>{
+cards.forEach((card, index) => {
 
-    card.addEventListener("click", ()=>{
+    card.addEventListener("click", () => {
 
         popup.style.display = "flex";
 
@@ -58,21 +58,21 @@ cards.forEach((card, index)=>{
 
 
 
-        if(index === 0){
+        if (index === 0) {
 
             popupTitle.innerText = "Dhurandhar";
 
             popupDesc.innerText =
-            "An undercover operative infiltrates Karachi's underworld.";
+                "An undercover operative infiltrates Karachi's underworld.";
 
         }
 
-        else if(index === 1){
+        else if (index === 1) {
 
             popupTitle.innerText = "Youth";
 
             popupDesc.innerText =
-            "A fun coming-of-age drama about friendship and dreams.";
+                "A fun coming-of-age drama about friendship and dreams.";
 
         }
 
@@ -82,7 +82,7 @@ cards.forEach((card, index)=>{
 
 
 
-closeBtn.addEventListener("click", ()=>{
+closeBtn.addEventListener("click", () => {
 
     popup.style.display = "none";
 
