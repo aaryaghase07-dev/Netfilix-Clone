@@ -1,11 +1,30 @@
 # Netfilix-Clone
-<p>This is a static clone</p>
-<h6>Author-Aarya Ghase</h6>
+# Tic-Tac-Toe
+This is Game. Build Using Html css and Javascript.
+
+<p align="center">
+    <b>Main Page</b>
+</p>
+
+<img src="screenshot/main.png" alt="Main">
+
+
+<p align="center">
+    <b>Gamin Stage</b>
+</p>
+
+<img src="screenshot/gaming stage.png" alt="Main">
+
+
+<p align="center">
+    <b>Winning stage</b>
+</p>
+
+<img src="screenshot/winner.png" alt="Main">
 
 
 
 
-<h1>Front Page</h1>
-<img src="/Netfilix-Clone/image/front page.png" alt="netflix web page">
+
 
 
