@@ -6,6 +6,6 @@
 <div>
 
 <h1>Front Page</h1>
-<img src="/Netfilix-Clone/image/front page.png">
+<img src="/Netfilix-Clone/image/front page.png" alt="netflix web page">
 
 </div>
