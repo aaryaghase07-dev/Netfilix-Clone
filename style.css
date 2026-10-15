@@ -395,11 +395,15 @@ section {
     margin-left: auto;
 }
 
+
 .letter {
     color: white;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.2;
+}
+.ans{
+    color:white;
 }
 
 

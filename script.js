@@ -1,30 +1,5 @@
 
-// sign in button action
-const signinBtn = document.querySelector(".signin-btn");
 
-const emailInput = document.querySelector('input[type="email"]');
-
-const passwordInput = document.querySelector('input[type="password"]');
-
-signinBtn.addEventListener("click", () => {
-
-    const email = emailInput.value;
-
-    const password = passwordInput.value;
-
-    if (email === "" || password === "") {
-
-        alert("Please fill all fields");
-
-    }
-
-    else {
-
-        alert("Login Successful");
-
-    }
-
-});
 
 
 
@@ -82,10 +57,42 @@ cards.forEach((card, index) => {
 
 
 
-closeBtn.addEventListener("click", () => {
+closeBtn.addEventListener("click", function() {
 
     popup.style.display = "none";
 
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const query=document.querySelector(".box1 .letter");
+const plus=document.querySelector(".plusimg");
+const ans=document.querySelector(".ans");
+
+plus.addEventListener("click",()=>{
+    if(ans.style.display==="none"){
+        ans.style.display="block";
+        
+    }
+    else{
+        ans.style.display="none";
+    }
+    
 });
 
 
