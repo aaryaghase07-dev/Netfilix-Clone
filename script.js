@@ -64,8 +64,24 @@ closeBtn.addEventListener("click", function() {
 });
 
 
+//get started btn
+let getemail=document.querySelector(".getstartedemail");
+let getbtn=document.querySelector("#get-started");
+let errmsg=document.querySelector(".errmsg")
+if (getemail && getbtn && errmsg) {
 
+    getbtn.addEventListener("click", function() {
 
+        if (getemail.value.trim() === "") {
+            errmsg.innerText = "Please enter your email address.";
+        } else {
+            errmsg.innerText = "";
+            alert("Email entered successfully!");
+        }
+
+    });
+
+}
 
 
 

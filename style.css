@@ -406,6 +406,25 @@ section {
     color:white;
 }
 
+/* get started */
+
+.emailcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.errmsg {
+    color:white;
+    font-size: 20px;
+    margin: 0 0 6px 10px;
+    min-height: 0;
+}
+
+#errmsg:empty {
+    display: none;
+}
+
+
 
 .content {
     text-align: center;
