@@ -1,7 +1,7 @@
 # Netfilix-Clone
-This is a static clone
-<br>
-Autor:Aarya Ghase
+<p>This is a static clone</p>
+<h6>Author-Aarya Ghase</h6>
+
 
 <div>
 
