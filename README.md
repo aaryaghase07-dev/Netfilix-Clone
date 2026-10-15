@@ -5,6 +5,6 @@ This is Netflix Clone web page.
     <b>Main Page</b>
 </p>
 
-<img src="/Netfilix-Clone/image/front page.png" alt="Main">
+<img src="/front page.png" alt="Main">
 
 
