@@ -8,3 +8,10 @@ This is Netflix Clone web page.
 <img src="/front page.png" alt="Main">
 
 
+<p align="center">
+    <b>Main Page</b>
+</p>
+
+<img src="/Netfilix-Clone/image/sign in page.png" alt="Main">
+
+

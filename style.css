@@ -144,12 +144,12 @@ select {
     color: white;
     border-radius: 4px;
     padding: 16px 35px;
-    font-size: 25px;
+    font-size:large;
     font-weight: 500;
-    border-radius: 4px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
 
 .btn-reds {
     background-color: red;
@@ -162,16 +162,33 @@ select {
 
 
 
-}
+} 
 
 #email {
-    padding: 20px 90px;
+    padding: 16px 90px;
     font-size: large;
     border-radius: 4px;
     font-weight: 500;
     background-color: rgba(23, 23, 23, 0.5);
     color: white;
 
+}
+/* get started */
+
+.emailcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.errmsg {
+    color:whitesmoke;
+    font-size: 20px;
+    margin: 0 0 6px 10px;
+    min-height: 0;
+}
+
+#errmsg:empty {
+    display: none;
 }
 
 .hero-btn {
@@ -406,23 +423,7 @@ section {
     color:white;
 }
 
-/* get started */
 
-.emailcontainer {
-    display: flex;
-    flex-direction: column;
-}
-
-.errmsg {
-    color:white;
-    font-size: 20px;
-    margin: 0 0 6px 10px;
-    min-height: 0;
-}
-
-#errmsg:empty {
-    display: none;
-}
 
 
 

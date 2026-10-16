@@ -74,6 +74,7 @@ if (getemail && getbtn && errmsg) {
 
         if (getemail.value.trim() === "") {
             errmsg.innerText = "Please enter your email address.";
+            
         } else {
             errmsg.innerText = "";
             alert("Email entered successfully!");
