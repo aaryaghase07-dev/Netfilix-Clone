@@ -12,6 +12,6 @@ This is Netflix Clone web page.
     <b>Main Page</b>
 </p>
 
-<img src="/Netfilix-Clone/image/sign in page.png" alt="Main">
+<img src="/image/sign in page.png" alt="Main">
 
 
